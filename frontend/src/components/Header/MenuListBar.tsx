@@ -75,11 +75,9 @@ function MenuListBar({setMenuIsShown}:Headertype) {
         <Item onClick={goDubbingList}>더빙 연습</Item>  
         <Item onClick={goAccent}>발음 연습</Item>  
       </Menuitems>
-
       <Menuitems>
-        <Item onClick={goMeetingBoard}>화상 회의</Item>  
+        <Item onClick={goMeetingBoard}>화상 회의</Item>
       </Menuitems>     
-    
       <Menuitems>
         <Item onClick={goFreeBoard}>자유게시판</Item>  
         <Item onClick={goRecordBoard}>녹음게시판</Item>  
